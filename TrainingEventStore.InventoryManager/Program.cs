@@ -1,4 +1,5 @@
 ﻿using System;
+using TrainingEventStore.Common.Products;
 
 namespace TrainingEventStore.InventoryManager
 {
@@ -6,7 +7,15 @@ namespace TrainingEventStore.InventoryManager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SaleServices saleServices = new SaleServices();
+            ProductServices productServices = new ProductServices();
+            productServices.AddProducts();
+         //   productServices.DisplayProducts();
+            Console.WriteLine("****************************");
+            saleServices.AddSales();
+
+            Console.WriteLine("Done");
+            Console.ReadLine();
         }
     }
 }

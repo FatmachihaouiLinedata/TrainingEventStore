@@ -6,7 +6,8 @@ namespace TrainingEventStore.Director
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DirectorServices directorServices = new DirectorServices();
+            directorServices.SubscribeToSaleEvent();
         }
     }
 }
