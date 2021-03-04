@@ -4,17 +4,17 @@ using System.Text;
 
 namespace TrainingEventStore.Common.Products
 {
-    public class CreateProductEvent :Event
+    public class ProductEventCreated :Event
     {
-        public Guid ProductId { get; set; }
+        public Guid Id { get; set; }
         public string ProductName { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
 
 
-        public CreateProductEvent(Guid productId, string productName, decimal price, int quantity)
+        public ProductEventCreated(Guid id, string productName, decimal price, int quantity)
         {
-            ProductId = productId;
+            Id = id;
             ProductName = productName;
             Price = price;
             Quantity = quantity;

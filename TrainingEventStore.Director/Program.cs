@@ -8,6 +8,8 @@ namespace TrainingEventStore.Director
         {
             DirectorServices directorServices = new DirectorServices();
             directorServices.SubscribeToSaleEvent();
+
+           
         }
     }
 }

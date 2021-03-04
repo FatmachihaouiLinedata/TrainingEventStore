@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingEventStore.Common", "TrainingEventStore.Common\TrainingEventStore.Common.csproj", "{5E305F59-083A-46BB-AB2B-4D40B3CEAECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingEventStore.Common", "TrainingEventStore.Common\TrainingEventStore.Common.csproj", "{5E305F59-083A-46BB-AB2B-4D40B3CEAECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingEventStore.InventoryManager", "TrainingEventStore.InventoryManager\TrainingEventStore.InventoryManager.csproj", "{24001A69-87FD-4585-B0F6-A7A57599BCD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingEventStore.InventoryManager", "TrainingEventStore.InventoryManager\TrainingEventStore.InventoryManager.csproj", "{24001A69-87FD-4585-B0F6-A7A57599BCD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingEventStore.Director", "TrainingEventStore.Director\TrainingEventStore.Director.csproj", "{179EBB27-6CA1-436D-9D7A-3544DEA34F29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingEventStore.Director", "TrainingEventStore.Director\TrainingEventStore.Director.csproj", "{179EBB27-6CA1-436D-9D7A-3544DEA34F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
