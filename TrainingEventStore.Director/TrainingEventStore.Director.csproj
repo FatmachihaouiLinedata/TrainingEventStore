@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrainingEventStore.Common\TrainingEventStore.Common.csproj" />
+    <ProjectReference Include="..\TrainingEventStore.InventoryManager\TrainingEventStore.InventoryManager.csproj" />
+  </ItemGroup>
+
 </Project>
